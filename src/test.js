@@ -17,6 +17,6 @@ describe('all', function () {
         assert.isObject(ar);
     });    
     it('This one is should be an string', function () {
-        assert.isNumber(lib.sample);
+        assert.isString(lib.sample);
     });
 });
